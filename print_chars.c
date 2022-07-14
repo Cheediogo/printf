@@ -2,9 +2,8 @@
 #include <stdlib.h>
 
 /**
- * print_c - prints a char
+ * print_c -> prints a char
  * @c: char to print
- *
  * Return: always 1
  */
 int print_c(va_list c)
@@ -16,9 +15,8 @@ int print_c(va_list c)
 }
 
 /**
- * print_s - prints a string
+ * print_s -> prints a string
  * @s: string to print
- *
  * Return: number of chars printed
  */
 int print_s(va_list s)
